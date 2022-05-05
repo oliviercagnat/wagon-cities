@@ -17,7 +17,7 @@ import App from './components/App';
 
 // 1 : We combine all the reducers into one.
 // 2 : We create the Redux store with the Reducers.
-// 3 : We wrap everything into the Provider.
+// 3 : We wrap everything into the Provider. It lets you bind Redux to React
 // 4 : We render on the DOM.
 // => See App.jsx
 ReactDOM.render(

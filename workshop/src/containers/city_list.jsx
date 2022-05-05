@@ -39,6 +39,10 @@ class CityList extends Component {
 // And you return the props you want to update.
 // Here the cities.
 // The function should then be passed to the connect function below.
+
+// This function connects the store state to corresponding props.
+// Any update on the store will update props automatically.
+
 function mapStateToProps(state) {
   return {
     // Here it has direct access to the return of the CitiesList class,

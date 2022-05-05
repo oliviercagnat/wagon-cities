@@ -20,6 +20,7 @@ const City = (props) => {
 };
 
 function mapDispatchToProps(dispatch) {
+  debugger
   // here bind the action to the props of the component.
   return bindActionCreators(
     { selectCity },
